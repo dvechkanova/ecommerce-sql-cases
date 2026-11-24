@@ -6,7 +6,7 @@
 ### Использовала
 Агрегация (`SUM`), оконная функция (`LAG`), метрика «прирост месяц к месяцу».
 
-```
+```sql
 
 -- Прирост выручки месяц к месяцу по категориям
 SELECT tab.category,
@@ -30,4 +30,4 @@ FROM (
     GROUP BY o_i.category, month
 ) AS tab
 ORDER BY tab.category, tab.month;
-```sql
+```
