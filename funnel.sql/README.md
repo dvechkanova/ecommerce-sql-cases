@@ -1,12 +1,12 @@
 # Карточка: воронка событий (e-commerce)
   
-## Задача. 
+## Задача
 Оценить конверсию на трёх этапах взаимодействия с сайтом за декабрь 2025: просмотр страницы → добавление в корзину → покупка.
   
 ### Использовала
   CTE, LEFT JOIN, подсчёт конверсии.
   
-```
+```sql
 -- Пользователи, просмотревшие страницу
 WITH viewers AS (
     SELECT DISTINCT user_id
@@ -38,3 +38,4 @@ SELECT
 FROM viewers AS v  
 LEFT JOIN adders AS a     ON a.user_id = v.user_id
 LEFT JOIN purchasers AS p ON p.user_id = a.user_id;
+```
