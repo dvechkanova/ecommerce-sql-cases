@@ -6,7 +6,8 @@
 ### Использовала
 оконная функция, метрика «прирост к предыдущему периоду»
 
-```SELECT tab.category,
+```
+SELECT tab.category,
        tab.month,
        tab.revenue,
        tab.prev_revenue,
