@@ -2,7 +2,7 @@
   
 ## Задача
 Оценить конверсию на трёх этапах взаимодействия с сайтом за декабрь 2025: просмотр страницы → добавление в корзину → покупка.
-Полная схема данных — в файле [DATA-SCHEMA.md](main/DATA-SCHEMA.md).
+Полная схема данных — в файле [DATA-SCHEMA.md](https://github.com/dvechkanova/sql-practice/blob/main/DATA-SCHEMA.md).
   
 ### Использовала
   CTE, LEFT JOIN, подсчёт конверсии.
